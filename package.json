@@ -1,5 +1,5 @@
 {
-  "name": "@contentful/draggable-repeater-app",
+  "name": "contentful-draggable-repeater-app",
   "description": "A contentful app that allows you to add a draggable key-value repeater as field for your Contentful app.",
   "author": "Michael Weterings <mail@michaelweterings.dev>",
   "version": "1.0",
@@ -11,11 +11,9 @@
     "@contentful/react-apps-toolkit": "1.2.16",
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
-    "@types/react-beautiful-dnd": "^13.1.8",
     "contentful-management": "10.46.4",
     "emotion": "10.0.27",
     "react": "18.3.1",
-    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "18.3.1",
     "uuid": "^11.1.0"
   },
