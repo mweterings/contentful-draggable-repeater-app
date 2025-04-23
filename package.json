@@ -1,0 +1,63 @@
+{
+  "name": "@contentful/draggable-repeater-app",
+  "description": "A contentful app that allows you to add a draggable key-value repeater as field for your Contentful app.",
+  "author": "Michael Weterings <mail@michaelweterings.dev>",
+  "version": "1.0",
+  "private": false,
+  "dependencies": {
+    "@contentful/app-sdk": "^4.29.1",
+    "@contentful/f36-components": "4.79.1",
+    "@contentful/f36-tokens": "4.2.0",
+    "@contentful/react-apps-toolkit": "1.2.16",
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "contentful-management": "10.46.4",
+    "emotion": "10.0.27",
+    "react": "18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "18.3.1",
+    "uuid": "^11.1.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "create-app-definition": "contentful-app-scripts create-app-definition",
+    "add-locations": "contentful-app-scripts add-locations",
+    "upload": "contentful-app-scripts upload --bundle-dir ./build",
+    "upload-ci": "contentful-app-scripts upload --ci --bundle-dir ./build --organization-id $CONTENTFUL_ORG_ID --definition-id $CONTENTFUL_APP_DEF_ID --token $CONTENTFUL_ACCESS_TOKEN"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@contentful/app-scripts": "^2.3.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.3.1",
+    "@types/node": "^22.13.5",
+    "@types/react": "18.3.13",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "^4.0.3",
+    "cross-env": "7.0.3",
+    "jsdom": "^26.0.0",
+    "typescript": "4.9.5",
+    "vite": "^6.2.2",
+    "vitest": "^3.0.9"
+  },
+  "homepage": "."
+}
